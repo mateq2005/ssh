@@ -34,7 +34,8 @@ PermitRootLogin_yes
 PasswordAuthentication no
 AllowTcpForwarding no
 X11Forwarding no
-
+AllowUsers username
+DenyUsers username
 ```
 
 ```
