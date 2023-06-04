@@ -12,6 +12,7 @@ sudo ufw allow ssh
 sudo ufw status
 ```
 
+```
 sudo service ssh status
 ```
 
