@@ -31,6 +31,10 @@ sudo nano /etc/ssh/sshd_config
 ```
 Port 22
 PermitRootLogin_yes
+PasswordAuthentication no
+AllowTcpForwarding no
+X11Forwarding no
+
 ```
 
 ```
