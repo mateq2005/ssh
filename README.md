@@ -8,6 +8,10 @@ sudo apt-get install openssh-server
 ```
 
 ```
+sudo ufw allow ssh
+sudo ufw status
+```
+
 sudo service ssh status
 ```
 
