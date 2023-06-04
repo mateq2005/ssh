@@ -36,6 +36,7 @@ AllowTcpForwarding no
 X11Forwarding no
 AllowUsers username
 DenyUsers username
+Banner /etc/issue.net
 ```
 
 ```
