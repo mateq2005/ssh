@@ -32,8 +32,8 @@ sudo nano /etc/ssh/sshd_config
 Port 22
 PermitRootLogin_yes
 PasswordAuthentication no
-AllowTcpForwarding no
-X11Forwarding no
+MaxAuthTries 6 
+MaxSessions 10
 AllowUsers username
 DenyUsers username
 Banner /etc/issue.net
