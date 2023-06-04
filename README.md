@@ -16,3 +16,5 @@ sudo service ssh status
 ```
 ssh username@IPv4 -p22
 ```
+
+### SSH Configuration Options
