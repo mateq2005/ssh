@@ -17,4 +17,17 @@ sudo service ssh status
 ssh username@IPv4 -p22
 ```
 
-### SSH Configuration Options
+### SSH Configuration Option
+
+```
+sudo nano /etc/ssh/sshd_config
+```
+
+```
+Port 22
+PermitRootLogin_yes
+```
+
+```
+sudo systemctl restart sshd.service
+```
