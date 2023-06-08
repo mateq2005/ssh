@@ -31,6 +31,7 @@ PasswordAuthentication no
 
 MaxAuthTries 6 
 MaxSessions 10
+LoginGraceTime 2m
 
 AllowUsers username
 DenyUsers username
