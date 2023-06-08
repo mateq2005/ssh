@@ -41,6 +41,7 @@ DenyGroups group
 Banner /etc/issue.net
 ```
 
+### Restarting SSH Service 
 ```
 sudo systemctl restart sshd.service
 ```
