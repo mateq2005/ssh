@@ -18,7 +18,7 @@ systemctl enable openssh-server
 ssh username@IPv4 -p22
 ```
 
-### SSH Configuration Option
+### SSH Configuration Options
 
 ```
 sudo nano /etc/ssh/sshd_config
