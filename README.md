@@ -32,8 +32,8 @@ MaxAuthTries 6
 MaxSessions 10
 AllowUsers username
 DenyUsers username
-AllowGroup group
-DenyGroup group 
+AllowGroups group
+DenyGroups group 
 Banner /etc/issue.net
 ```
 
