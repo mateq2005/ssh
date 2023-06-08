@@ -28,7 +28,7 @@ sudo nano /etc/ssh/sshd_config
 Port 22
 
 PasswordAuthentication no
-PermitRootLogin prohibit-password
+PermitRootLogin yes
 
 MaxAuthTries 6 
 MaxSessions 10
