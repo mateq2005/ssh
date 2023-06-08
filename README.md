@@ -1,6 +1,6 @@
 # SSH
 
-### Enable SSH on Ubuntu
+### Installing Open-SSH
 
 ```
 sudo apt-get update
