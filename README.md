@@ -7,15 +7,6 @@ sudo apt-get update
 sudo apt-get install openssh-server
 ```
 
-```
-sudo ufw allow ssh
-sudo ufw status
-```
-
-```
-sudo service ssh status
-```
-
 ### Log Into Remote Server With SSH
 
 ```
