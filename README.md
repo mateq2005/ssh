@@ -26,17 +26,23 @@ sudo nano /etc/ssh/sshd_config
 
 ```
 Port 22
+
 PermitRootLogin_yes
 PasswordAuthentication no
+
 MaxAuthTries 6 
 MaxSessions 10
+
 AllowUsers username
 DenyUsers username
 AllowGroups group
 DenyGroups group 
+
 Banner /etc/issue.net
 ```
 
 ```
 sudo systemctl restart sshd.service
 ```
+
+*tested*
