@@ -1,6 +1,6 @@
 # SSH
 
-### Installing Open-SSH
+### Installing OpenSSH
 
 ```
 sudo apt-get update
