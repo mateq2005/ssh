@@ -7,6 +7,11 @@ sudo apt-get update
 sudo apt-get install openssh-server
 ```
 
+```
+systemctl start openssh-server
+systemctl enable openssh-server
+```
+
 ### Log Into Remote Server With SSH
 
 ```
