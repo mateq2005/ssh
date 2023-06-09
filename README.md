@@ -8,8 +8,7 @@ sudo apt-get install openssh-server
 ```
 
 ```
-systemctl start openssh-server
-systemctl enable openssh-server
+systemctl start sshd
 ```
 
 ### Log Into Remote Server With SSH
@@ -44,7 +43,7 @@ Banner /etc/issue.net
 
 ### Restarting SSH Service 
 ```
-sudo systemctl restart sshd.service
+sudo systemctl restart sshd
 ```
 
 *tested*
