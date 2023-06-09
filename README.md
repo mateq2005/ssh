@@ -9,6 +9,7 @@ sudo apt-get install openssh-server
 
 ```
 systemctl start sshd
+systemctl status sshd
 ```
 
 ### Log Into Remote Server With SSH
